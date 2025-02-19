@@ -38,9 +38,9 @@ export default function StudentDetailPage() {
           </Button>
         </div>
       </div>
-      <div className="grid  grid-cols-1 gap-6 py-6 lg:grid-cols-4">
-        <div className=" col-span-1 flex flex-col gap-6 lg:col-span-1">
-          <Card className="bg-secondary  shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] drop-shadow-sm">
+      <div className="grid grid-cols-1 gap-6 py-6 lg:grid-cols-4">
+        <div className="col-span-1 flex flex-col gap-6 lg:col-span-1">
+          <Card className="bg-secondary shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] drop-shadow-xs">
             <CardHeader className="flex flex-row items-center justify-between font-bold">
               <p className="text-xl"> Profile</p>
               <Badge className="bg-green-600">Active</Badge>
@@ -48,11 +48,11 @@ export default function StudentDetailPage() {
             <CardContent className="flex items-center justify-center">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrmY1DyC4CYWTK_Bhn6qQygwQJW0UQgXn-ew&usqp=CAU"
-                className="rounded-l-[40%] rounded-r-[40%] "
+                className="rounded-l-[40%] rounded-r-[40%]"
               />
             </CardContent>
           </Card>
-          <Card className="bg-secondary shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] drop-shadow-sm">
+          <Card className="bg-secondary shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] drop-shadow-xs">
             <CardHeader className="pb-2 text-center font-bold">
               About Me
             </CardHeader>
@@ -62,7 +62,7 @@ export default function StudentDetailPage() {
               parents. Feel free to reach out for any assistance or feedback
             </CardContent>
           </Card>
-          <Card className="bg-secondary shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] drop-shadow-sm">
+          <Card className="bg-secondary shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] drop-shadow-xs">
             <CardHeader className="pb-2 text-center font-bold">
               Last Login
             </CardHeader>
@@ -72,7 +72,7 @@ export default function StudentDetailPage() {
           </Card>
         </div>
         {/* contact information  */}
-        <Card className=" col-span-1 bg-secondary shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] drop-shadow-sm lg:col-span-3">
+        <Card className="bg-secondary col-span-1 shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] drop-shadow-xs lg:col-span-3">
           <CardHeader className="text-xl font-bold">
             Contact Information
           </CardHeader>
