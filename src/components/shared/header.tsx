@@ -1,23 +1,23 @@
-import { navItems } from '@/constants/data';
-import { usePathname } from '@/routes/hooks';
+// import { navItems } from '@/constants/data';
+// import { usePathname } from '@/routes/hooks';
 import { Separator } from '../ui/separator';
 import { SidebarTrigger } from '../ui/sidebar';
 import { ModeToggle } from './theme-toggle';
 import UserNav from './user-nav';
 
 // Custom hook to find the matched path
-const useMatchedPath = (pathname: string) => {
-  const matchedPath =
-    navItems.find((item) => item.url === pathname) ||
-    navItems.find(
-      (item) => pathname.startsWith(item.url + '/') && item.url !== '/'
-    );
-  return matchedPath?.title || '';
-};
+// const useMatchedPath = (pathname: string) => {
+//   const matchedPath =
+//     navItems.find((item) => item.url === pathname) ||
+//     navItems.find(
+//       (item) => pathname.startsWith(item.url + '/') && item.url !== '/'
+//     );
+//   return matchedPath?.title || '';
+// };
 
 export default function Header() {
-  const pathname = usePathname();
-  const headingText = useMatchedPath(pathname);
+  // const pathname = usePathname();
+  // const headingText = useMatchedPath(pathname);
 
   return (
     <header className="flex h-16 shrink-0 items-center justify-between gap-2 transition-[width,height] ease-linear group-has-[[data-collapsible=icon]]/sidebar-wrapper:h-12">
